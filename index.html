@@ -79,7 +79,7 @@
 
     <nav>
       <ul style="font-size: 12px; font-style: oblique; font-weight: 100">
-        总文章数：11
+        总文章数：16
         </ul>
         </nav>
         <br />
@@ -172,22 +172,24 @@
                         
     
     
-    <article id="post-learning/kearningredis" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-interview/线上问题处理方案" class="article article-type-post  article-index" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class=" article-header">
             
 
 <h1 itemprop="name">
-    <a class="article-title" href="/2019/12/21/learning/kearningredis/">学习记录-Redis</a>
+    <a class="article-title" href="/2020/10/04/interview/%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86%E6%96%B9%E6%A1%88/">线上问题处理方案</a>
 </h1>
 
 
 
             
-                <a href="/2019/12/21/learning/kearningredis/" class="archive-article-date">
-  	<time datetime="2019-12-20T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-21</time>
+                
+<a href="/2020/10/04/interview/%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86%E6%96%B9%E6%A1%88/" class="archive-article-date">
+  	<time datetime="2020-10-03T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-04</time>
 </a>
+
             
 
             <!-- 开始添加字数统计-->
@@ -197,7 +199,7 @@
         <span class="post-meta-item-icon">
             <i class="fa fa-keyboard-o"></i>
             <span class="post-meta-item-text"> 字数统计: </span>
-            <span class="post-count">43字</span>
+            <span class="post-count">136字</span>
         </span>
     </span>
 
@@ -219,12 +221,7 @@
         
         <div class="article-entry" itemprop="articleBody">
             
-            <!-- TOC -->
-
-<ul>
-<li><a href="#数据结构">数据结构</a></li>
-</ul>
-<!-- /TOC -->
+            <p>[TOC]</p>
             
             
 
@@ -236,17 +233,363 @@
 <div class="article-tag tagcloud">
     <i class="icon-price-tags icon"></i>
     <ul class="article-tag-list">
+        
+        <li class="article-tag-list-item">
+            <a href="javascript:void(0)"
+                class="js-tag article-tag-list-link color5">线上问题</a>
+        </li>
+        
+    </ul>
+</div>
+
+
+            
+
+            
+            <p class="article-more-link">
+                <a class="article-more-a" href="/2020/10/04/interview/%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86%E6%96%B9%E6%A1%88/">
+                    展开全文 >></a>
+            </p>
+            
+
+            
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</article>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+    
+    <article id="post-interview/服务稳定性和高可用" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class=" article-header">
+            
+
+<h1 itemprop="name">
+    <a class="article-title" href="/2020/10/04/interview/%E6%9C%8D%E5%8A%A1%E7%A8%B3%E5%AE%9A%E6%80%A7%E5%92%8C%E9%AB%98%E5%8F%AF%E7%94%A8/">服务稳定性和高可用</a>
+</h1>
+
+
+
+            
+                
+<a href="/2020/10/04/interview/%E6%9C%8D%E5%8A%A1%E7%A8%B3%E5%AE%9A%E6%80%A7%E5%92%8C%E9%AB%98%E5%8F%AF%E7%94%A8/" class="archive-article-date">
+  	<time datetime="2020-10-03T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-04</time>
+</a>
+
+            
+
+            <!-- 开始添加字数统计-->
+            
+                <div style="margin-top:10px;">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="fa fa-keyboard-o"></i>
+            <span class="post-meta-item-text"> 字数统计: </span>
+            <span class="post-count">281字</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="fa fa-hourglass-half"></i>
+            <span class="post-meta-item-text"> 阅读时长: </span>
+            <span class="post-count">1分</span>
+        </span>
+    </span>
+</div>
+
+            
+
+            <!--显示阅读次数-->
+            <!--  -->
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+            
+            <p>[TOC]</p>
+            
+            
+
+            
+        </div>
+        <div class="article-info article-info-index">
+            
+            
+<div class="article-tag tagcloud">
+    <i class="icon-price-tags icon"></i>
+    <ul class="article-tag-list">
+        
+        <li class="article-tag-list-item">
+            <a href="javascript:void(0)"
+                class="js-tag article-tag-list-link color4">learning</a>
+        </li>
+        
+        <li class="article-tag-list-item">
+            <a href="javascript:void(0)"
+                class="js-tag article-tag-list-link color3">服务</a>
+        </li>
+        
+        <li class="article-tag-list-item">
+            <a href="javascript:void(0)"
+                class="js-tag article-tag-list-link color4">稳定性</a>
+        </li>
+        
+        <li class="article-tag-list-item">
+            <a href="javascript:void(0)"
+                class="js-tag article-tag-list-link color4">高可用</a>
+        </li>
+        
+    </ul>
+</div>
+
+
+            
+
+            
+            <p class="article-more-link">
+                <a class="article-more-a" href="/2020/10/04/interview/%E6%9C%8D%E5%8A%A1%E7%A8%B3%E5%AE%9A%E6%80%A7%E5%92%8C%E9%AB%98%E5%8F%AF%E7%94%A8/">
+                    展开全文 >></a>
+            </p>
+            
+
+            
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</article>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+    
+    <article id="post-linux/linux 指令" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class=" article-header">
+            
+
+<h1 itemprop="name">
+    <a class="article-title" href="/2020/10/04/linux/linux%20%E6%8C%87%E4%BB%A4/">linux 指令</a>
+</h1>
+
+
+
+            
+                
+<a href="/2020/10/04/linux/linux%20%E6%8C%87%E4%BB%A4/" class="archive-article-date">
+  	<time datetime="2020-10-03T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-04</time>
+</a>
+
+            
+
+            <!-- 开始添加字数统计-->
+            
+                <div style="margin-top:10px;">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="fa fa-keyboard-o"></i>
+            <span class="post-meta-item-text"> 字数统计: </span>
+            <span class="post-count">110字</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="fa fa-hourglass-half"></i>
+            <span class="post-meta-item-text"> 阅读时长: </span>
+            <span class="post-count">1分</span>
+        </span>
+    </span>
+</div>
+
+            
+
+            <!--显示阅读次数-->
+            <!--  -->
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+            
+            <p>[TOC]</p>
+            
+            
+
+            
+        </div>
+        <div class="article-info article-info-index">
+            
+            
+<div class="article-tag tagcloud">
+    <i class="icon-price-tags icon"></i>
+    <ul class="article-tag-list">
+        
+        <li class="article-tag-list-item">
+            <a href="javascript:void(0)"
+                class="js-tag article-tag-list-link color4">learning</a>
+        </li>
+        
+        <li class="article-tag-list-item">
+            <a href="javascript:void(0)"
+                class="js-tag article-tag-list-link color1">linux</a>
+        </li>
+        
+        <li class="article-tag-list-item">
+            <a href="javascript:void(0)"
+                class="js-tag article-tag-list-link color3">指令</a>
+        </li>
+        
+    </ul>
+</div>
+
+
+            
+
+            
+            <p class="article-more-link">
+                <a class="article-more-a" href="/2020/10/04/linux/linux%20%E6%8C%87%E4%BB%A4/">
+                    展开全文 >></a>
+            </p>
+            
+
+            
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</article>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+    
+    <article id="post-redis/learningredis" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class=" article-header">
+            
+
+<h1 itemprop="name">
+    <a class="article-title" href="/2020/10/04/redis/learningredis/">学习记录-Redis</a>
+</h1>
+
+
+
+            
+                
+<a href="/2020/10/04/redis/learningredis/" class="archive-article-date">
+  	<time datetime="2020-10-03T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-04</time>
+</a>
+
+            
+
+            <!-- 开始添加字数统计-->
+            
+                <div style="margin-top:10px;">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="fa fa-keyboard-o"></i>
+            <span class="post-meta-item-text"> 字数统计: </span>
+            <span class="post-count">40字</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="fa fa-hourglass-half"></i>
+            <span class="post-meta-item-text"> 阅读时长: </span>
+            <span class="post-count">1分</span>
+        </span>
+    </span>
+</div>
+
+            
+
+            <!--显示阅读次数-->
+            <!--  -->
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+            
+            <p>[TOC]</p>
+            
+            
+
+            
+        </div>
+        <div class="article-info article-info-index">
+            
+            
+<div class="article-tag tagcloud">
+    <i class="icon-price-tags icon"></i>
+    <ul class="article-tag-list">
+        
+        <li class="article-tag-list-item">
+            <a href="javascript:void(0)"
+                class="js-tag article-tag-list-link color4">learning</a>
+        </li>
         
         <li class="article-tag-list-item">
             <a href="javascript:void(0)"
                 class="js-tag article-tag-list-link color1">redis</a>
         </li>
         
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color4">learning</a>
-        </li>
-        
     </ul>
 </div>
 
@@ -255,7 +598,7 @@
 
             
             <p class="article-more-link">
-                <a class="article-more-a" href="/2019/12/21/learning/kearningredis/">
+                <a class="article-more-a" href="/2020/10/04/redis/learningredis/">
                     展开全文 >></a>
             </p>
             
@@ -287,22 +630,24 @@
 
 
     
-    <article id="post-learning/learningdocker" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-interview/限流" class="article article-type-post  article-index" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class=" article-header">
             
 
 <h1 itemprop="name">
-    <a class="article-title" href="/2019/12/21/learning/learningdocker/">学习记录-Docker</a>
+    <a class="article-title" href="/2020/10/04/interview/%E9%99%90%E6%B5%81/">限流方案</a>
 </h1>
 
 
 
             
-                <a href="/2019/12/21/learning/learningdocker/" class="archive-article-date">
-  	<time datetime="2019-12-20T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-21</time>
+                
+<a href="/2020/10/04/interview/%E9%99%90%E6%B5%81/" class="archive-article-date">
+  	<time datetime="2020-10-03T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-04</time>
 </a>
+
             
 
             <!-- 开始添加字数统计-->
@@ -312,7 +657,226 @@
         <span class="post-meta-item-icon">
             <i class="fa fa-keyboard-o"></i>
             <span class="post-meta-item-text"> 字数统计: </span>
-            <span class="post-count">179字</span>
+            <span class="post-count">1.2k字</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="fa fa-hourglass-half"></i>
+            <span class="post-meta-item-text"> 阅读时长: </span>
+            <span class="post-count">5分</span>
+        </span>
+    </span>
+</div>
+
+            
+
+            <!--显示阅读次数-->
+            <!--  -->
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+            
+            <p>[TOC]</p>
+            
+            
+
+            
+        </div>
+        <div class="article-info article-info-index">
+            
+            
+<div class="article-tag tagcloud">
+    <i class="icon-price-tags icon"></i>
+    <ul class="article-tag-list">
+        
+        <li class="article-tag-list-item">
+            <a href="javascript:void(0)"
+                class="js-tag article-tag-list-link color3">限流</a>
+        </li>
+        
+    </ul>
+</div>
+
+
+            
+
+            
+            <p class="article-more-link">
+                <a class="article-more-a" href="/2020/10/04/interview/%E9%99%90%E6%B5%81/">
+                    展开全文 >></a>
+            </p>
+            
+
+            
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</article>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+    
+    <article id="post-algo/algorithm" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class=" article-header">
+            
+
+<h1 itemprop="name">
+    <a class="article-title" href="/2020/10/04/algo/algorithm/">算法</a>
+</h1>
+
+
+
+            
+                
+<a href="/2020/10/04/algo/algorithm/" class="archive-article-date">
+  	<time datetime="2020-10-03T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-04</time>
+</a>
+
+            
+
+            <!-- 开始添加字数统计-->
+            
+                <div style="margin-top:10px;">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="fa fa-keyboard-o"></i>
+            <span class="post-meta-item-text"> 字数统计: </span>
+            <span class="post-count">42.4k字</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="fa fa-hourglass-half"></i>
+            <span class="post-meta-item-text"> 阅读时长: </span>
+            <span class="post-count">222分</span>
+        </span>
+    </span>
+</div>
+
+            
+
+            <!--显示阅读次数-->
+            <!--  -->
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+            
+            <p>参考<br><a href="https://labuladong.gitbook.io/algo/" target="_blank" rel="noopener">labuladong</a><br><a href="https://leetcode-cn.com/problemset/all/" target="_blank" rel="noopener">leetcode 官网</a></p>
+            
+            
+
+            
+        </div>
+        <div class="article-info article-info-index">
+            
+            
+<div class="article-tag tagcloud">
+    <i class="icon-price-tags icon"></i>
+    <ul class="article-tag-list">
+        
+        <li class="article-tag-list-item">
+            <a href="javascript:void(0)"
+                class="js-tag article-tag-list-link color5">algorithm</a>
+        </li>
+        
+        <li class="article-tag-list-item">
+            <a href="javascript:void(0)"
+                class="js-tag article-tag-list-link color4">leetcode</a>
+        </li>
+        
+    </ul>
+</div>
+
+
+            
+
+            
+            <p class="article-more-link">
+                <a class="article-more-a" href="/2020/10/04/algo/algorithm/">
+                    展开全文 >></a>
+            </p>
+            
+
+            
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</article>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+    
+    <article id="post-docker/learningdocker" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class=" article-header">
+            
+
+<h1 itemprop="name">
+    <a class="article-title" href="/2019/12/21/docker/learningdocker/">学习记录-Docker</a>
+</h1>
+
+
+
+            
+                
+<a href="/2019/12/21/docker/learningdocker/" class="archive-article-date">
+  	<time datetime="2019-12-20T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-21</time>
+</a>
+
+            
+
+            <!-- 开始添加字数统计-->
+            
+                <div style="margin-top:10px;">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="fa fa-keyboard-o"></i>
+            <span class="post-meta-item-text"> 字数统计: </span>
+            <span class="post-count">177字</span>
         </span>
     </span>
 
@@ -334,14 +898,7 @@
         
         <div class="article-entry" itemprop="articleBody">
             
-            <!-- TOC -->
-
-<ul>
-<li><a href="#docker">Docker</a></li>
-<li><a href="#redis">Redis</a></li>
-<li><a href="#mysql">Mysql</a></li>
-</ul>
-<!-- /TOC -->
+            <p>[TOC]</p>
             
             
 
@@ -353,17 +910,17 @@
 <div class="article-tag tagcloud">
     <i class="icon-price-tags icon"></i>
     <ul class="article-tag-list">
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color4">learning</a>
-        </li>
         
         <li class="article-tag-list-item">
             <a href="javascript:void(0)"
                 class="js-tag article-tag-list-link color2">docker</a>
         </li>
         
+        <li class="article-tag-list-item">
+            <a href="javascript:void(0)"
+                class="js-tag article-tag-list-link color4">learning</a>
+        </li>
+        
     </ul>
 </div>
 
@@ -372,7 +929,7 @@
 
             
             <p class="article-more-link">
-                <a class="article-more-a" href="/2019/12/21/learning/learningdocker/">
+                <a class="article-more-a" href="/2019/12/21/docker/learningdocker/">
                     展开全文 >></a>
             </p>
             
@@ -404,22 +961,24 @@
 
 
     
-    <article id="post-learning/learningjava" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-python/learningpython3" class="article article-type-post  article-index" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class=" article-header">
             
 
 <h1 itemprop="name">
-    <a class="article-title" href="/2018/11/29/learning/learningjava/">学习记录-java</a>
+    <a class="article-title" href="/2018/11/29/python/learningpython3/">学习记录-python3</a>
 </h1>
 
 
 
             
-                <a href="/2018/11/29/learning/learningjava/" class="archive-article-date">
+                
+<a href="/2018/11/29/python/learningpython3/" class="archive-article-date">
   	<time datetime="2018-11-28T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-29</time>
 </a>
+
             
 
             <!-- 开始添加字数统计-->
@@ -429,7 +988,7 @@
         <span class="post-meta-item-icon">
             <i class="fa fa-keyboard-o"></i>
             <span class="post-meta-item-text"> 字数统计: </span>
-            <span class="post-count">809字</span>
+            <span class="post-count">681字</span>
         </span>
     </span>
 
@@ -451,277 +1010,7 @@
         
         <div class="article-entry" itemprop="articleBody">
             
-            <!-- TOC -->
-
-<ul>
-<li><a href="#annotation">Annotation</a><ul>
-<li><a href="#target">@Target</a></li>
-<li><a href="#retention">@Retention</a></li>
-<li><a href="#inherited">@Inherited</a></li>
-<li><a href="#documented">@Documented</a></li>
-</ul>
-</li>
-<li><a href="#junit-单元测试">JUnit 单元测试</a><ul>
-<li><a href="#注解">注解</a></li>
-</ul>
-</li>
-<li><a href="#多线程">多线程</a><ul>
-<li><a href="#线程状态-java-thread-state">线程状态 Java Thread State</a></li>
-</ul>
-</li>
-<li><a href="#java编程思想">JAVA编程思想</a><ul>
-<li><a href="#类型信息">类型信息</a></li>
-</ul>
-</li>
-</ul>
-<!-- /TOC -->
-            
-            
-
-            
-        </div>
-        <div class="article-info article-info-index">
-            
-            
-<div class="article-tag tagcloud">
-    <i class="icon-price-tags icon"></i>
-    <ul class="article-tag-list">
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color4">learning</a>
-        </li>
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color5">java</a>
-        </li>
-        
-    </ul>
-</div>
-
-
-            
-
-            
-            <p class="article-more-link">
-                <a class="article-more-a" href="/2018/11/29/learning/learningjava/">
-                    展开全文 >></a>
-            </p>
-            
-
-            
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</article>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-    
-    <article id="post-learning/learningshell" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-            <header class=" article-header">
-            
-
-<h1 itemprop="name">
-    <a class="article-title" href="/2018/11/29/learning/learningshell/">学习记录-shell</a>
-</h1>
-
-
-
-            
-                <a href="/2018/11/29/learning/learningshell/" class="archive-article-date">
-  	<time datetime="2018-11-28T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-29</time>
-</a>
-            
-
-            <!-- 开始添加字数统计-->
-            
-                <div style="margin-top:10px;">
-    <span class="post-time">
-        <span class="post-meta-item-icon">
-            <i class="fa fa-keyboard-o"></i>
-            <span class="post-meta-item-text"> 字数统计: </span>
-            <span class="post-count">1.5k字</span>
-        </span>
-    </span>
-
-    <span class="post-time">
-        &nbsp; | &nbsp;
-        <span class="post-meta-item-icon">
-            <i class="fa fa-hourglass-half"></i>
-            <span class="post-meta-item-text"> 阅读时长: </span>
-            <span class="post-count">6分</span>
-        </span>
-    </span>
-</div>
-
-            
-
-            <!--显示阅读次数-->
-            <!--  -->
-            </header>
-        
-        <div class="article-entry" itemprop="articleBody">
-            
-            <!-- TOC -->
-
-<ul>
-<li><a href="#基础">基础</a><ul>
-<li><a href="#终端打印">终端打印</a></li>
-<li><a href="#变量">变量</a></li>
-<li><a href="#数学运算">数学运算</a><ul>
-<li><a href="#整数">整数</a></li>
-<li><a href="#浮点数运算">浮点数运算</a></li>
-<li><a href="#文件描述符和重定向">文件描述符和重定向</a></li>
-<li><a href="#普通数组和关联数组">普通数组和关联数组</a></li>
-<li><a href="#别名">别名</a></li>
-<li><a href="#获取终端信息tput和stty">获取终端信息tput和stty</a></li>
-<li><a href="#获取设置日期和延时">获取、设置日期和延时</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#shell命令">shell命令</a></li>
-</ul>
-<!-- /TOC -->
-            
-            
-
-            
-        </div>
-        <div class="article-info article-info-index">
-            
-            
-<div class="article-tag tagcloud">
-    <i class="icon-price-tags icon"></i>
-    <ul class="article-tag-list">
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color4">learning</a>
-        </li>
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color1">shell</a>
-        </li>
-        
-    </ul>
-</div>
-
-
-            
-
-            
-            <p class="article-more-link">
-                <a class="article-more-a" href="/2018/11/29/learning/learningshell/">
-                    展开全文 >></a>
-            </p>
-            
-
-            
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</article>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-    
-    <article id="post-learning/learningpython3" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-            <header class=" article-header">
-            
-
-<h1 itemprop="name">
-    <a class="article-title" href="/2018/11/29/learning/learningpython3/">学习记录-python3</a>
-</h1>
-
-
-
-            
-                <a href="/2018/11/29/learning/learningpython3/" class="archive-article-date">
-  	<time datetime="2018-11-28T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-29</time>
-</a>
-            
-
-            <!-- 开始添加字数统计-->
-            
-                <div style="margin-top:10px;">
-    <span class="post-time">
-        <span class="post-meta-item-icon">
-            <i class="fa fa-keyboard-o"></i>
-            <span class="post-meta-item-text"> 字数统计: </span>
-            <span class="post-count">690字</span>
-        </span>
-    </span>
-
-    <span class="post-time">
-        &nbsp; | &nbsp;
-        <span class="post-meta-item-icon">
-            <i class="fa fa-hourglass-half"></i>
-            <span class="post-meta-item-text"> 阅读时长: </span>
-            <span class="post-count">3分</span>
-        </span>
-    </span>
-</div>
-
-            
-
-            <!--显示阅读次数-->
-            <!--  -->
-            </header>
-        
-        <div class="article-entry" itemprop="articleBody">
-            
-            <!-- TOC -->
-
-<ul>
-<li><a href="#输入和输出">输入和输出</a></li>
-<li><a href="#python-基础">Python 基础</a></li>
-<li><a href="#函数">函数</a></li>
-</ul>
-<!-- /TOC -->
+            <p>[TOC]</p>
             
             
 
@@ -752,7 +1041,7 @@
 
             
             <p class="article-more-link">
-                <a class="article-more-a" href="/2018/11/29/learning/learningpython3/">
+                <a class="article-more-a" href="/2018/11/29/python/learningpython3/">
                     展开全文 >></a>
             </p>
             
@@ -784,22 +1073,24 @@
 
 
     
-    <article id="post-learning/learningvim" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-linux/learningvim" class="article article-type-post  article-index" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class=" article-header">
             
 
 <h1 itemprop="name">
-    <a class="article-title" href="/2018/11/29/learning/learningvim/">学习记录-vim</a>
+    <a class="article-title" href="/2018/11/29/linux/learningvim/">学习记录-vim</a>
 </h1>
 
 
 
             
-                <a href="/2018/11/29/learning/learningvim/" class="archive-article-date">
+                
+<a href="/2018/11/29/linux/learningvim/" class="archive-article-date">
   	<time datetime="2018-11-28T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-29</time>
 </a>
+
             
 
             <!-- 开始添加字数统计-->
@@ -831,23 +1122,7 @@
         
         <div class="article-entry" itemprop="articleBody">
             
-            <!-- TOC -->
-
-<ul>
-<li><a href="#vim-学习记录">vim 学习记录</a><ul>
-<li><a href="#命令用法及解释">命令用法及解释</a><ul>
-<li><a href="#退出编辑器"><strong>退出编辑器</strong></a></li>
-<li><a href="#删除文本"><strong>删除文本</strong></a></li>
-<li><a href="#撤销"><strong>撤销</strong></a></li>
-<li><a href="#批量添加或删除注释"><strong>批量添加或删除注释</strong></a></li>
-<li><a href="#复制粘贴"><strong>复制、粘贴</strong></a></li>
-<li><a href="#移动"><strong>移动</strong></a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<!-- /TOC -->
+            <p>[TOC]</p>
             
             
 
@@ -878,7 +1153,7 @@
 
             
             <p class="article-more-link">
-                <a class="article-more-a" href="/2018/11/29/learning/learningvim/">
+                <a class="article-more-a" href="/2018/11/29/linux/learningvim/">
                     展开全文 >></a>
             </p>
             
@@ -910,22 +1185,24 @@
 
 
     
-    <article id="post-learning/learningMR" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-linux/learningshell" class="article article-type-post  article-index" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class=" article-header">
             
 
 <h1 itemprop="name">
-    <a class="article-title" href="/2018/11/29/learning/learningMR/">学习记录-MR</a>
+    <a class="article-title" href="/2018/11/29/linux/learningshell/">学习记录-shell</a>
 </h1>
 
 
 
             
-                <a href="/2018/11/29/learning/learningMR/" class="archive-article-date">
+                
+<a href="/2018/11/29/linux/learningshell/" class="archive-article-date">
   	<time datetime="2018-11-28T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-29</time>
 </a>
+
             
 
             <!-- 开始添加字数统计-->
@@ -935,7 +1212,7 @@
         <span class="post-meta-item-icon">
             <i class="fa fa-keyboard-o"></i>
             <span class="post-meta-item-text"> 字数统计: </span>
-            <span class="post-count">3.3k字</span>
+            <span class="post-count">1.5k字</span>
         </span>
     </span>
 
@@ -944,7 +1221,7 @@
         <span class="post-meta-item-icon">
             <i class="fa fa-hourglass-half"></i>
             <span class="post-meta-item-text"> 阅读时长: </span>
-            <span class="post-count">12分</span>
+            <span class="post-count">6分</span>
         </span>
     </span>
 </div>
@@ -957,50 +1234,7 @@
         
         <div class="article-entry" itemprop="articleBody">
             
-            <!-- TOC -->
-
-<ul>
-<li><a href="#mapreduce-运行原理">MapReduce 运行原理</a><ul>
-<li><a href="#map-side">Map Side</a><ul>
-<li><a href="#1从磁盘读取数据并分片">1.从磁盘读取数据并分片</a></li>
-<li><a href="#2map-task处理">2.map task处理</a></li>
-<li><a href="#3输出数据到缓冲区">3.输出数据到缓冲区</a></li>
-<li><a href="#4分区排序分组">4.分区、排序分组</a></li>
-<li><a href="#5规约combainer">5.规约（combainer）</a></li>
-<li><a href="#6合并写入磁盘">6.合并写入磁盘</a></li>
-</ul>
-</li>
-<li><a href="#reduce-side">Reduce Side</a><ul>
-<li><a href="#1从map端拉取数据">1.从map端拉取数据</a></li>
-<li><a href="#2对数据进行合并12两个步骤为shuffle过程">2.对数据进行合并（1,2两个步骤为shuffle过程）</a></li>
-<li><a href="#3对数据进行排序">3.对数据进行排序</a></li>
-<li><a href="#4进行reduce操作">4.进行reduce操作</a></li>
-<li><a href="#5输出到磁盘">5.输出到磁盘</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#最简单的调优方式">最简单的调优方式</a></li>
-<li><a href="#map-side-tuning-总结">map side tuning 总结</a></li>
-<li><a href="#reduce-side-tuning">Reduce side tuning</a><ul>
-<li><a href="#shuffle">Shuffle</a><ul>
-<li><a href="#1copy">1.Copy</a></li>
-<li><a href="#2merge">2.Merge</a></li>
-</ul>
-</li>
-<li><a href="#sort">Sort</a></li>
-<li><a href="#reduce">Reduce</a></li>
-<li><a href="#reduce-side-tuning总结">Reduce side tuning总结</a></li>
-<li><a href="#mapreduce-tuning总结">MapReduce tuning总结</a></li>
-</ul>
-</li>
-<li><a href="#map-task和reduce-task的启动数">Map task和Reduce task的启动数</a><ul>
-<li><a href="#1mapper数量">1.mapper数量</a></li>
-<li><a href="#2reducer数量">2.reducer数量</a></li>
-</ul>
-</li>
-</ul>
-<!-- /TOC -->
+            <p>[TOC]</p>
             
             
 
@@ -1020,7 +1254,12 @@
         
         <li class="article-tag-list-item">
             <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color3">MR</a>
+                class="js-tag article-tag-list-link color1">shell</a>
+        </li>
+        
+        <li class="article-tag-list-item">
+            <a href="javascript:void(0)"
+                class="js-tag article-tag-list-link color2">linux shell 脚本攻略</a>
         </li>
         
     </ul>
@@ -1031,451 +1270,7 @@
 
             
             <p class="article-more-link">
-                <a class="article-more-a" href="/2018/11/29/learning/learningMR/">
-                    展开全文 >></a>
-            </p>
-            
-
-            
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</article>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-    
-    <article id="post-learning/learninggit" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-            <header class=" article-header">
-            
-
-<h1 itemprop="name">
-    <a class="article-title" href="/2018/11/29/learning/learninggit/">学习记录-Git</a>
-</h1>
-
-
-
-            
-                <a href="/2018/11/29/learning/learninggit/" class="archive-article-date">
-  	<time datetime="2018-11-28T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-29</time>
-</a>
-            
-
-            <!-- 开始添加字数统计-->
-            
-                <div style="margin-top:10px;">
-    <span class="post-time">
-        <span class="post-meta-item-icon">
-            <i class="fa fa-keyboard-o"></i>
-            <span class="post-meta-item-text"> 字数统计: </span>
-            <span class="post-count">2.8k字</span>
-        </span>
-    </span>
-
-    <span class="post-time">
-        &nbsp; | &nbsp;
-        <span class="post-meta-item-icon">
-            <i class="fa fa-hourglass-half"></i>
-            <span class="post-meta-item-text"> 阅读时长: </span>
-            <span class="post-count">11分</span>
-        </span>
-    </span>
-</div>
-
-            
-
-            <!--显示阅读次数-->
-            <!--  -->
-            </header>
-        
-        <div class="article-entry" itemprop="articleBody">
-            
-            <!-- TOC -->
-
-<ul>
-<li><a href="#git基础">git基础</a><ul>
-<li><a href="#创建远程仓库">创建远程仓库</a></li>
-<li><a href="#从远程仓库克隆">从远程仓库克隆</a></li>
-<li><a href="#git指令">git指令</a></li>
-<li><a href="#分支管理">分支管理</a></li>
-<li><a href="#解决冲突">解决冲突</a></li>
-<li><a href="#分支管理策略">分支管理策略</a></li>
-<li><a href="#bug分支">BUG分支</a></li>
-<li><a href="#feature-分支">Feature 分支</a></li>
-<li><a href="#多人协作">多人协作</a></li>
-<li><a href="#标签管理">标签管理</a></li>
-<li><a href="#忽略特殊文件">忽略特殊文件</a></li>
-<li><a href="#配置别名">配置别名</a></li>
-<li><a href="#git-命令集合">git 命令集合</a></li>
-</ul>
-</li>
-</ul>
-<!-- /TOC -->
-            
-            
-
-            
-        </div>
-        <div class="article-info article-info-index">
-            
-            
-<div class="article-tag tagcloud">
-    <i class="icon-price-tags icon"></i>
-    <ul class="article-tag-list">
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color4">learning</a>
-        </li>
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color4">git</a>
-        </li>
-        
-    </ul>
-</div>
-
-
-            
-
-            
-            <p class="article-more-link">
-                <a class="article-more-a" href="/2018/11/29/learning/learninggit/">
-                    展开全文 >></a>
-            </p>
-            
-
-            
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</article>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-    
-    <article id="post-idea/IntelliJ IDEA keymap" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-            <header class=" article-header">
-            
-
-<h1 itemprop="name">
-    <a class="article-title" href="/2018/11/29/idea/IntelliJ%20IDEA%20keymap/">IntelliJ IDEA快捷键</a>
-</h1>
-
-
-
-            
-                <a href="/2018/11/29/idea/IntelliJ%20IDEA%20keymap/" class="archive-article-date">
-  	<time datetime="2018-11-28T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-29</time>
-</a>
-            
-
-            <!-- 开始添加字数统计-->
-            
-                <div style="margin-top:10px;">
-    <span class="post-time">
-        <span class="post-meta-item-icon">
-            <i class="fa fa-keyboard-o"></i>
-            <span class="post-meta-item-text"> 字数统计: </span>
-            <span class="post-count">2.5k字</span>
-        </span>
-    </span>
-
-    <span class="post-time">
-        &nbsp; | &nbsp;
-        <span class="post-meta-item-icon">
-            <i class="fa fa-hourglass-half"></i>
-            <span class="post-meta-item-text"> 阅读时长: </span>
-            <span class="post-count">9分</span>
-        </span>
-    </span>
-</div>
-
-            
-
-            <!--显示阅读次数-->
-            <!--  -->
-            </header>
-        
-        <div class="article-entry" itemprop="articleBody">
-            
-            <!-- TOC -->
-
-<ul>
-<li><a href="#mac键盘符号和修饰键说明">mac键盘符号和修饰键说明</a></li>
-<li><a href="#editing">editing</a></li>
-<li><a href="#search-and-replace">search and replace</a></li>
-<li><a href="#usage-and-search">usage and search</a></li>
-<li><a href="#compile-and-run">compile and run</a></li>
-<li><a href="#debugging">debugging</a></li>
-<li><a href="#navigation">navigation</a></li>
-<li><a href="#refactoring">refactoring</a></li>
-<li><a href="#vcs-and-local-history">vcs and local history</a></li>
-<li><a href="#导航">导航</a></li>
-<li><a href="#编辑">编辑</a></li>
-<li><a href="#查找">查找</a></li>
-<li><a href="#导航-1">导航</a></li>
-<li><a href="#通用">通用</a></li>
-</ul>
-<!-- /TOC -->
-
-<p>转载自<a href="http://www.cnblogs.com/wxd0108/p/5295017.html" target="_blank" rel="noopener">http://www.cnblogs.com/wxd0108/p/5295017.html</a></p>
-            
-            
-
-            
-        </div>
-        <div class="article-info article-info-index">
-            
-            
-<div class="article-tag tagcloud">
-    <i class="icon-price-tags icon"></i>
-    <ul class="article-tag-list">
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color4">learning</a>
-        </li>
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color3">转载</a>
-        </li>
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color4">mac</a>
-        </li>
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color2">keymap</a>
-        </li>
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color4">IntelliJ IDEA</a>
-        </li>
-        
-    </ul>
-</div>
-
-
-            
-
-            
-            <p class="article-more-link">
-                <a class="article-more-a" href="/2018/11/29/idea/IntelliJ%20IDEA%20keymap/">
-                    展开全文 >></a>
-            </p>
-            
-
-            
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</article>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-    
-    <article id="post-summary/mysummary" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-            <header class=" article-header">
-            
-
-<h1 itemprop="name">
-    <a class="article-title" href="/2018/11/29/summary/mysummary/">错误集锦及记录</a>
-</h1>
-
-
-
-            
-                <a href="/2018/11/29/summary/mysummary/" class="archive-article-date">
-  	<time datetime="2018-11-28T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-29</time>
-</a>
-            
-
-            <!-- 开始添加字数统计-->
-            
-                <div style="margin-top:10px;">
-    <span class="post-time">
-        <span class="post-meta-item-icon">
-            <i class="fa fa-keyboard-o"></i>
-            <span class="post-meta-item-text"> 字数统计: </span>
-            <span class="post-count">4.6k字</span>
-        </span>
-    </span>
-
-    <span class="post-time">
-        &nbsp; | &nbsp;
-        <span class="post-meta-item-icon">
-            <i class="fa fa-hourglass-half"></i>
-            <span class="post-meta-item-text"> 阅读时长: </span>
-            <span class="post-count">19分</span>
-        </span>
-    </span>
-</div>
-
-            
-
-            <!--显示阅读次数-->
-            <!--  -->
-            </header>
-        
-        <div class="article-entry" itemprop="articleBody">
-            
-            <!-- TOC -->
-
-<ul>
-<li><a href="#错误集锦">错误集锦</a><ul>
-<li><a href="#tomcat">tomcat</a></li>
-<li><a href="#mysql">mysql</a></li>
-<li><a href="#visualbox-配置">visualbox 配置</a></li>
-<li><a href="#windows">windows</a><ul>
-<li><a href="#指令">指令</a></li>
-</ul>
-</li>
-<li><a href="#linux">linux</a><ul>
-<li><a href="#指令-1">指令</a></li>
-<li><a href="#qs">q&amp;s</a></li>
-</ul>
-</li>
-<li><a href="#fe">fe</a></li>
-<li><a href="#idea">idea</a></li>
-<li><a href="#java">java</a><ul>
-<li><a href="#qs-1">q&amp;s</a></li>
-<li><a href="#jvm">jvm</a></li>
-</ul>
-</li>
-<li><a href="#hadoop">hadoop</a><ul>
-<li><a href="#notice">notice</a></li>
-<li><a href="#hdfs-操作指令">hdfs 操作指令</a></li>
-<li><a href="#hadoop优化">hadoop优化</a><ul>
-<li><a href="#mr-job-流程">mr job 流程</a></li>
-<li><a href="#map">map</a></li>
-<li><a href="#shuffle">shuffle</a></li>
-<li><a href="#reduce">reduce</a></li>
-<li><a href="#优化场景">优化场景</a></li>
-</ul>
-</li>
-<li><a href="#hadoop配置说明">hadoop配置说明</a></li>
-</ul>
-</li>
-<li><a href="#hive">hive</a><ul>
-<li><a href="#notice-1">notice</a></li>
-<li><a href="#hql">hql</a></li>
-<li><a href="#hive-和hadoop-配置说明">hive 和hadoop 配置说明</a><ul>
-<li><a href="#hive-配置说明">hive 配置说明</a></li>
-<li><a href="#hadoop-配置说明">hadoop 配置说明</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#hive-reduce最终数据不压缩">hive reduce最终数据不压缩</a><ul>
-<li><a href="#hive-job-细节优化">hive Job 细节优化</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<!-- /TOC -->
-            
-            
-
-            
-        </div>
-        <div class="article-info article-info-index">
-            
-            
-<div class="article-tag tagcloud">
-    <i class="icon-price-tags icon"></i>
-    <ul class="article-tag-list">
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color4">learning</a>
-        </li>
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color3">随笔</a>
-        </li>
-        
-        <li class="article-tag-list-item">
-            <a href="javascript:void(0)"
-                class="js-tag article-tag-list-link color5">错误集锦</a>
-        </li>
-        
-    </ul>
-</div>
-
-
-            
-
-            
-            <p class="article-more-link">
-                <a class="article-more-a" href="/2018/11/29/summary/mysummary/">
+                <a class="article-more-a" href="/2018/11/29/linux/learningshell/">
                     展开全文 >></a>
             </p>
             
@@ -1554,14 +1349,15 @@
                 setInterval("createtime()", 250);
             </script>
         </div>
-        
-        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-        <div calss="count-span">
-            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
-            <span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv"></span>人</span>
-            <span id="busuanzi_container_page_pv">本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span>
-        </div>
     </div>
+
+    
+        <!-- 不蒜子统计 -->
+        <span>本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+        <span class="post-meta-divider">|</span>
+        <span>本站访客数<span id="busuanzi_value_site_uv"></span>人</span>
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
 </footer>
 
         </div>
@@ -1647,7 +1443,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
                     
                     <li class="article-tag-list-item">
                         <a href="javascript:void(0)"
-                            class="js-tag color1">redis</a>
+                            class="js-tag color2">docker</a>
                     </li>
                     
                     <li class="article-tag-list-item">
@@ -1657,17 +1453,22 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
                     
                     <li class="article-tag-list-item">
                         <a href="javascript:void(0)"
-                            class="js-tag color2">docker</a>
+                            class="js-tag color5">线上问题</a>
                     </li>
                     
                     <li class="article-tag-list-item">
                         <a href="javascript:void(0)"
-                            class="js-tag color5">java</a>
+                            class="js-tag color3">服务</a>
                     </li>
                     
                     <li class="article-tag-list-item">
                         <a href="javascript:void(0)"
-                            class="js-tag color1">shell</a>
+                            class="js-tag color4">稳定性</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a href="javascript:void(0)"
+                            class="js-tag color4">高可用</a>
                     </li>
                     
                     <li class="article-tag-list-item">
@@ -1682,12 +1483,42 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
                     
                     <li class="article-tag-list-item">
                         <a href="javascript:void(0)"
-                            class="js-tag color3">MR</a>
+                            class="js-tag color1">shell</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a href="javascript:void(0)"
+                            class="js-tag color2">linux shell 脚本攻略</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a href="javascript:void(0)"
+                            class="js-tag color1">linux</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a href="javascript:void(0)"
+                            class="js-tag color3">指令</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a href="javascript:void(0)"
+                            class="js-tag color1">redis</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a href="javascript:void(0)"
+                            class="js-tag color3">总结</a>
                     </li>
                     
                     <li class="article-tag-list-item">
                         <a href="javascript:void(0)"
                             class="js-tag color4">git</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a href="javascript:void(0)"
+                            class="js-tag color3">MR</a>
                     </li>
                     
                     <li class="article-tag-list-item">
@@ -1712,17 +1543,32 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
                     
                     <li class="article-tag-list-item">
                         <a href="javascript:void(0)"
-                            class="js-tag color3">随笔</a>
+                            class="js-tag color3">限流</a>
                     </li>
                     
                     <li class="article-tag-list-item">
                         <a href="javascript:void(0)"
-                            class="js-tag color5">错误集锦</a>
+                            class="js-tag color2">hadoop</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a href="javascript:void(0)"
+                            class="js-tag color5">hive</a>
                     </li>
                     
                     <li class="article-tag-list-item">
                         <a href="javascript:void(0)"
                             class="js-tag color1">scala</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a href="javascript:void(0)"
+                            class="js-tag color5">algorithm</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a href="javascript:void(0)"
+                            class="js-tag color4">leetcode</a>
                     </li>
                     
                     <div class="clearfix"></div>
