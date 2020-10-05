@@ -151,7 +151,7 @@
 
   
   <url>
-    <loc>https://wufish.github.io/tags/MR/</loc>
+    <loc>https://wufish.github.io/tags/git/</loc>
     <lastmod>2020-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -166,13 +166,6 @@
   
   <url>
     <loc>https://wufish.github.io/tags/docker/</loc>
-    <lastmod>2020-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://wufish.github.io/tags/git/</loc>
     <lastmod>2020-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -201,6 +194,13 @@
   
   <url>
     <loc>https://wufish.github.io/tags/IntelliJ-IDEA/</loc>
+    <lastmod>2020-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://wufish.github.io/tags/MR/</loc>
     <lastmod>2020-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -242,6 +242,20 @@
   </url>
   
   <url>
+    <loc>https://wufish.github.io/tags/python3/</loc>
+    <lastmod>2020-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://wufish.github.io/tags/redis/</loc>
+    <lastmod>2020-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wufish.github.io/tags/shell/</loc>
     <lastmod>2020-10-05</lastmod>
     <changefreq>daily</changefreq>
@@ -271,20 +285,6 @@
   
   <url>
     <loc>https://wufish.github.io/tags/%E6%8C%87%E4%BB%A4/</loc>
-    <lastmod>2020-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://wufish.github.io/tags/python3/</loc>
-    <lastmod>2020-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://wufish.github.io/tags/redis/</loc>
     <lastmod>2020-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
